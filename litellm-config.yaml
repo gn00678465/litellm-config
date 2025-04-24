@@ -7,3 +7,11 @@ model_list:
     litellm_params:
       model: gemini/gemini-2.5-flash-preview-04-17
       api_key: "os.environ/GEMINI_API_KEY"
+  - model_name: grok-3-mini-beta
+    litellm_params:
+      model: xai/grok-3-mini-beta
+      api_key: "os.environ/XAI_API_KEY"
+  - model_name: grok-3-beta
+    litellm_params:
+      model: xai/grok-3-beta
+      api_key: "os.environ/XAI_API_KEY"
